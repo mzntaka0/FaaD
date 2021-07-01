@@ -40,15 +40,3 @@ for endpoint in endpoints:
         prefix=f'/{endpoint}',
         tags=[endpoint]
     )
-
-
-# NOTE: these routes were abstracted by the code above
-#api_router.include_router(items.router, prefix='/items', tags=['items'])
-#api_router.include_router(regions.router, prefix='/regions', tags=['regions'])
-#api_router.include_router(buildings.router, prefix='/buildings', tags=['buildings'])
-#api_router.include_router(callback.router, prefix='/callback', tags=['callback'])
-#api_router.include_router(data.router, prefix='/data', tags=['data'])
-#api_router.include_router(flows.router, prefix='/flows', tags=['flows'])
-#api_router.include_router(meetings.router, prefix='/meetings', tags=['meetings'])
-#api_router.include_router(s3.router, prefix='/s3', tags=['s3'])
-#api_router.include_router(sensors.router, prefix='/sensors', tags=['sensors'])
