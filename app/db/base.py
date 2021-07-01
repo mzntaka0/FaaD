@@ -4,7 +4,7 @@ from decouple import config
 from eralchemy import render_er
 
 from app.db.base_class import Base  # noqa
-from app.models import User, Blueprint, Coordinate, Field, Sensor  # noqa
+from app.models import User  # noqa
 
 
 #SQLALCHEMY_DATABASE_URI = f"mysql+pymysql://{config('DB_USERNAME')}:{config('DB_PASSWORD')}@{config('DB_HOST')}/{config('DB_TABLE')}"
